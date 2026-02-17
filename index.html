@@ -3,9 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio | SinR0str0</title>
+    
+    <!-- Fuentes -->
+    <link href="https://api.fontsource.org/v1/fonts/playfair-display/latin-400.css" rel="stylesheet">
+    <link href="https://api.fontsource.org/v1/fonts/playfair-display/latin-700.css" rel="stylesheet">
+    <link href="https://api.fontsource.org/v1/fonts/inter/latin-400.css" rel="stylesheet">
+    <link href="https://api.fontsource.org/v1/fonts/inter/latin-600.css" rel="stylesheet">
+    
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Hola Mundo!
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="navbar-brand">
+                <div class="logo-icon">
+                    <img src="Logo.png" alt="Logo" class="logo-image">
+                </div>
+                <span class="logo-text">Portafolio</span>
+            </div>
+            
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="#hero" class="nav-link active">Inicio</a>
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+
+            <a href="#contact" class="btn btn-primary btn-nav">
+                <span>Contactar</span>
+            </a>
+
+            <!-- Mobile menu button -->
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Menú">
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-availability">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">Disponible para proyectos</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Hola, soy <br>
+                    <span class="hero-title-accent">Desarrollador de <br>Software</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Transformo ideas en experiencias digitales excepcionales. Especializado en automatizaciones y diseño Front-End.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary btn-lg">
+                        <div class="btn-icon-wrapper">
+                        </div>
+                        <span>Ver Proyectos</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="hero-image-card">
+                    
+                    <!-- Floating Card -->
+                    <div class="floating-card">
+                        <div class="floating-card-icon">
+                        </div>
+                        <div class="floating-card-content">
+                            <p class="floating-card-number">14+</p>
+                            <p class="floating-card-label">Proyectos Completados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">
+                    <span class="label-dot"></span>
+                    ACERCA DE
+                </div>
+                <h2 class="section-title">
+                    Creando soluciones digitales <br>
+                    <span class="section-title-accent">con pasión y precisión</span>
+                </h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador apasionado por crear experiencias digitales que no solo se ven bien, sino que funcionan perfectamente. Aprendiendo desarrollo web y profundizando en el desarrollo con Inteligencia Artificial, me especializo en transformar ideas complejas en soluciones elegantes y funcionales.
+                    </p>
+                    <p>
+                        Mi enfoque combina diseño intuitivo con código limpio y eficiente. Trabajo con las últimas tecnologías para asegurar que cada proyecto sea escalable, mantenible y preparado para el futuro.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <p class="stat-number">2+</p>
+                        <p class="stat-label">Años de experiencia</p>
+                    </div>
+                    <div class="stat-card">
+                        <p class="stat-number">14+</p>
+                        <p class="stat-label">Proyectos completados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header-center">
+                <div class="section-badge">PORTAFOLIO</div>
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-description">Una selección de mis trabajos más recientes y significativos</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper project-image-1">
+                        <img src="https://image.pollinations.ai/prompt/laptop%20showing%20e-commerce%20website%20minimalist%20design%20pink%20background%20aesthetic?width=600&height=800&nologo=true" alt="E-commerce" class="project-image">
+                    </div>
+                    <h3 class="project-title">Lorem Ipsum</h3>
+                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper project-image-2">
+                        <img src="https://image.pollinations.ai/prompt/mobile%20app%20interface%20fintech%20wallet%20green%20background%203d%20render?width=600&height=800&nologo=true" alt="Fintech App" class="project-image">
+                    </div>
+                    <h3 class="project-title">Lorem Ipsum</h3>
+                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper project-image-3">
+                        <img src="https://image.pollinations.ai/prompt/desktop%20monitor%20showing%20portfolio%20website%20minimalist%20grey%20background%20clean%20design?width=600&height=800&nologo=true" alt="Portfolio" class="project-image">
+                    </div>
+                    <h3 class="project-title">Lorem Ipsum</h3>
+                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper project-image-4">
+                        <img src="https://image.pollinations.ai/prompt/mobile%20app%20food%20delivery%20interface%20yellow%20background%20vibrant%203d%20icons?width=600&height=800&nologo=true" alt="Food Delivery" class="project-image">
+                    </div>
+                    <h3 class="project-title">Lorem Ipsum</h3>
+                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </article>
+            </div>
+            
+            <div class="projects-cta">
+                <a href="https://github.com/SinR0str0" target="_blank" class="link-github">
+                    Ver más en GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-content">
+                    <h2 class="footer-title">¿Tienes un proyecto en mente?</h2>
+                    <p class="footer-description">Estoy siempre abierto a discutir nuevos proyectos, ideas creativas o oportunidades de ser parte de tus visiones.</p>
+                    <a href="https://discord.gg/n4aPG2PKYY" class="btn btn-accent btn-lg">
+                        <span>Iniciar Conversación</span>
+                    </a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/SinR0str0" target="_blank" class="social-link" aria-label="GitHub">
+                    </a>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sinrostr0/" target="_blank" class="social-link" aria-label="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2026 SinR0str0. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
