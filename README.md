@@ -33,7 +33,7 @@ Este sitio web tiene como objetivo:
 
 El sitio está alojado en GitHub Pages:
 
-🔗 [https://sinr0str0.github.io/DevF/](https://sinr0str0.github.io/)
+🔗 [https://sinr0str0.github.io/](https://sinr0str0.github.io/)
 
 ---
 
