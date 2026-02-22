@@ -33,7 +33,7 @@ Este sitio web tiene como objetivo:
 
 El sitio está alojado en GitHub Pages:
 
-🔗 [https://sinr0str0.github.io/DevF/](https://sinr0str0.github.io/DevF/)
+🔗 [https://sinr0str0.github.io/DevF/](https://sinr0str0.github.io/)
 
 ---
 
@@ -42,7 +42,7 @@ El sitio está alojado en GitHub Pages:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/SinR0str0/DevF.git
+git clone https://github.com/SinR0str0/sinr0str0.github.io.git
 ````
 
 ### 2. Ajecutar la versión actual
