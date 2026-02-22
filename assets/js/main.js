@@ -56,7 +56,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const projectsContainer = document.getElementById('projects-container');
 
 if (projectsContainer) {
-    const isPagesFolder = window.location.pathname.includes('/pages/');
+    const isPagesFolder = window.location.pathname.includes('/projects/');
     const jsonPath = isPagesFolder ? '../data/projects.json' : './data/projects.json';
     
     fetch(jsonPath)
