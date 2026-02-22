@@ -55,6 +55,8 @@ Abrir el archivo `index.html` en el navegador.
 
 **SinR0str0**
 Desarrollador en proceso
+
 🔗 [https://github.com/SinR0str0](https://github.com/SinR0str0)
+
 🔗 [https://www.linkedin.com/in/angel-hernandez-pena/](https://www.linkedin.com/in/angel-hernandez-pena/)
 
