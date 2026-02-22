@@ -3,82 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | SinR0str0</title>
+    <meta name="description" content="Portafolio de Angel Hernández Peña - Estudiante de Matemáticas Aplicadas y Computación. Enfocado en desarrollo web y soluciones eficientes. Portafolio profesional con proyectos y evolución técnica.">
+    <link rel="icon" type="image/png" href="assets/images/Logo2.png" />
+    <title>Angel Adrian Hernández Peña | Desarrollador de Software</title>
     
-    <!-- Fuentes -->
-    <link href="https://api.fontsource.org/v1/fonts/playfair-display/latin-400.css" rel="stylesheet">
-    <link href="https://api.fontsource.org/v1/fonts/playfair-display/latin-700.css" rel="stylesheet">
-    <link href="https://api.fontsource.org/v1/fonts/inter/latin-400.css" rel="stylesheet">
-    <link href="https://api.fontsource.org/v1/fonts/inter/latin-600.css" rel="stylesheet">
-    
-    <!-- Hoja de estilos personalizada -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container navbar-container">
-            <div class="navbar-brand">
-                <div class="logo-icon">
-                    <img src="Logo.png" alt="Logo" class="logo-image">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="assets\images\Logo2.png" width="50px">
+                    Portafolio de Angel
                 </div>
-                <span class="logo-text">Portafolio</span>
-            </div>
-            
-            <div class="navbar-menu" id="navbarMenu">
-                <a href="#hero" class="nav-link active">Inicio</a>
-                <a href="#about" class="nav-link">Sobre Mí</a>
-                <a href="#projects" class="nav-link">Proyectos</a>
-                <a href="#contact" class="nav-link">Contacto</a>
-            </div>
-
-            <a href="#contact" class="btn btn-primary btn-nav">
-                <span>Contactar</span>
-            </a>
-
-            <!-- Mobile menu button -->
-            <button class="navbar-toggle" id="navbarToggle" aria-label="Menú">
-            </button>
+                <ul class="nav-links">
+                    <li><a href="#about">Acerca de Mi</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="pages/projects.html">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="container hero-container">
+        <section class="hero">
+        <div class="container">
             <div class="hero-content">
-                <div class="badge-availability">
-                    <span class="badge-dot"></span>
-                    <span class="badge-text">Disponible para proyectos</span>
-                </div>
-                
-                <h1 class="hero-title">
-                    Hola, soy <br>
-                    <span class="hero-title-accent">Desarrollador de <br>Software</span>
-                </h1>
-                
-                <p class="hero-description">
-                    Transformo ideas en experiencias digitales excepcionales. Especializado en automatizaciones y diseño Front-End.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary btn-lg">
-                        <div class="btn-icon-wrapper">
-                        </div>
-                        <span>Ver Proyectos</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="hero-image-wrapper">
-                <div class="hero-image-card">
+                <div class="hero-text">
                     
-                    <!-- Floating Card -->
-                    <div class="floating-card">
-                        <div class="floating-card-icon">
+                    <div class="hero-profile">
+                        <div class="profile-img-container">
+                            <img src="assets/images/Me.png" alt="Angel Hernández" class="profile-img">
+                            <span class="status-dot"></span>
                         </div>
-                        <div class="floating-card-content">
-                            <p class="floating-card-number">14+</p>
-                            <p class="floating-card-label">Proyectos Completados</p>
+                        <div class="profile-info">
+                            <h2 class="profile-name">Angel Hernández</h2>
+                            <p class="profile-role">Estudiante de Matemáticas Aplicadas y Computación</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="hero-badge-container">
+                        <span class="badge-pill">Disponible para Contratar</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hola, soy <br>
+                        <span class="text-gradient">Angel Hernández</span>
+                    </h1>
+                    
+                    <p class="hero-alias">
+                        <i class="fa-solid fa-terminal"></i> También conocido como <span class="highlight-alias">Sin_R0str0</span> en entornos digitales
+                    </p>
+
+                    <p class="hero-description">
+                        Estudiante de la Facultad de Estudios Superiores Acatlán (UNAM) enfocado en la calidad de software, testing y resolución de problemas complejos mediante lógica matemática y algoritmos eficientes.
+                    </p>
+
+                    <div class="hero-buttons" style="display: flex; justify-content: center;">
+                        <a href="pages/projects.html" class="btn btn-primary">
+                            <i class="fa-solid fa-folder-open"></i> Ver Proyectos
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-file-lines"></i> Contactar
+                        </a>
+                    </div>
+
+                    <div class="hero-badges-group">
+                        <div class="badge-item">
+                            <i class="fa-solid fa-square-root-variable" style="color: #00d9ff;"></i> Matemáticas
+                        </div>
+                        <div class="badge-item">
+                            <i class="fa-solid fa-trophy" style="color: goldenrod;"></i> Algoritmos
+                        </div>
+                        <div class="badge-item">
+                            <i class="fa-solid fa-network-wired" style="color: #00d9ff;"></i> Sistemas
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <div class="code-content">
+                            <p><span class="code-keyword">def</span> <span class="code-func">solve_problem</span>():</p>
+                            <p style="padding-left: 20px;"><span class="code-keyword">while</span> <span class="code-keyword">not</span> solved:</p>
+                            <p style="padding-left: 40px;">analyze()</p>
+                            <p style="padding-left: 40px;">optimize()</p>
+                            <p style="padding-left: 40px;">implement()</p>
+                            <p style="padding-left: 20px;"><span class="code-keyword">return</span> <span class="code-func  ">True</span></p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -86,125 +107,136 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="section-header">
-                <div class="section-label">
-                    <span class="label-dot"></span>
-                    ACERCA DE
-                </div>
-                <h2 class="section-title">
-                    Creando soluciones digitales <br>
-                    <span class="section-title-accent">con pasión y precisión</span>
-                </h2>
-            </div>
-
+            <h2 class="section-title">Sobre Mí</h2>
             <div class="about-grid">
+                <div class="about-img">
+                    <img src="assets/images/First.jpg" alt="Concurso de Matemáticas">
+                </div>
                 <div class="about-text">
+                    <h3>Estudiante de Matemáticas Aplicadas y Computación</h3>
                     <p>
-                        Soy un desarrollador apasionado por crear experiencias digitales que no solo se ven bien, sino que funcionan perfectamente. Aprendiendo desarrollo web y profundizando en el desarrollo con Inteligencia Artificial, me especializo en transformar ideas complejas en soluciones elegantes y funcionales.
+                        Soy estudiante de la <strong>FES Acatlán (UNAM)</strong>, activo (2023-2028).
+                        Me enfoco en aplicar el análisis matemático para el desarrollo de software.
                     </p>
                     <p>
-                        Mi enfoque combina diseño intuitivo con código limpio y eficiente. Trabajo con las últimas tecnologías para asegurar que cada proyecto sea escalable, mantenible y preparado para el futuro.
+                        Me interesan las áreas de <strong>ingeniería de software, testing,
+                        automatización y ciberseguridad</strong>, donde utilizo mis habilidades
+                        de lógica y análisis estructurado para crear soluciones de alto impacto.
                     </p>
-                </div>
-
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <p class="stat-number">2+</p>
-                        <p class="stat-label">Años de experiencia</p>
-                    </div>
-                    <div class="stat-card">
-                        <p class="stat-number">14+</p>
-                        <p class="stat-label">Proyectos completados</p>
+                    <p>
+                        Durante estos años he adquirido una serie de certificaciones en desarrollo 
+                        con Inteligencia Artificial y tecnología, ampliando mis herramientas digitales
+                        para producir mejores sistemas.
+                    </p>
+                    <div class="quote">
+                        "Busco desarrollarme en ambientes donde no existan límites pues todo es posible con la
+                        programación."
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="skills" class="skills">
         <div class="container">
-            <div class="section-header-center">
-                <div class="section-badge">PORTAFOLIO</div>
-                <h2 class="section-title">Proyectos Destacados</h2>
-                <p class="section-description">Una selección de mis trabajos más recientes y significativos</p>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <article class="project-card">
-                    <div class="project-image-wrapper project-image-1">
-                        <img src="https://image.pollinations.ai/prompt/laptop%20showing%20e-commerce%20website%20minimalist%20design%20pink%20background%20aesthetic?width=600&height=800&nologo=true" alt="E-commerce" class="project-image">
-                    </div>
-                    <h3 class="project-title">Lorem Ipsum</h3>
-                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-
-                </article>
-
-                <!-- Project 2 -->
-                <article class="project-card">
-                    <div class="project-image-wrapper project-image-2">
-                        <img src="https://image.pollinations.ai/prompt/mobile%20app%20interface%20fintech%20wallet%20green%20background%203d%20render?width=600&height=800&nologo=true" alt="Fintech App" class="project-image">
-                    </div>
-                    <h3 class="project-title">Lorem Ipsum</h3>
-                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </article>
-
-                <!-- Project 3 -->
-                <article class="project-card">
-                    <div class="project-image-wrapper project-image-3">
-                        <img src="https://image.pollinations.ai/prompt/desktop%20monitor%20showing%20portfolio%20website%20minimalist%20grey%20background%20clean%20design?width=600&height=800&nologo=true" alt="Portfolio" class="project-image">
-                    </div>
-                    <h3 class="project-title">Lorem Ipsum</h3>
-                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </article>
-
-                <!-- Project 4 -->
-                <article class="project-card">
-                    <div class="project-image-wrapper project-image-4">
-                        <img src="https://image.pollinations.ai/prompt/mobile%20app%20food%20delivery%20interface%20yellow%20background%20vibrant%203d%20icons?width=600&height=800&nologo=true" alt="Food Delivery" class="project-image">
-                    </div>
-                    <h3 class="project-title">Lorem Ipsum</h3>
-                    <p class="project-category">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </article>
-            </div>
-            
-            <div class="projects-cta">
-                <a href="https://github.com/SinR0str0" target="_blank" class="link-github">
-                    Ver más en GitHub
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact" class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-content">
-                    <h2 class="footer-title">¿Tienes un proyecto en mente?</h2>
-                    <p class="footer-description">Estoy siempre abierto a discutir nuevos proyectos, ideas creativas o oportunidades de ser parte de tus visiones.</p>
-                    <a href="https://discord.gg/n4aPG2PKYY" class="btn btn-accent btn-lg">
-                        <span>Iniciar Conversación</span>
-                    </a>
-                </div>
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
                 
-                <div class="footer-social">
-                    <a href="https://github.com/SinR0str0" target="_blank" class="social-link" aria-label="GitHub">
-                    </a>
-                    </a>
-                    <a href="https://www.linkedin.com/in/sinrostr0/" target="_blank" class="social-link" aria-label="LinkedIn">
-                    </a>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                        <span>Fundamentos</span>
+                    </div>
+                    <p style="color:var(--text-muted); margin-bottom:15px; font-size:0.9rem;">
+                        Bases sólidas en lógica computacional.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Estructuras de Datos</span>
+                        <span class="tech-tag">Algoritmos</span>
+                        <span class="tech-tag">Programación Orientada a Objetos</span>
+                        <span class="tech-tag">Lógica Matemática</span>
+                        <span class="tech-tag">Desarrollo Web</span>
+                    </div>
                 </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                        <span>Lenguajes</span>
+                    </div>
+                    <p style="color:var(--text-muted); margin-bottom:15px; font-size:0.9rem;">
+                        Dominio en diversos lenguajes de programación.
+                    </p>
+                    <div class="tech-tags" >
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="icon-box"><i class="fa-solid fa-users"></i></div>
+                        <span>Soft Skills</span>
+                    </div>
+                    <ul style="color:var(--text-muted); font-size:0.9rem; line-height:2;">
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Mentoría</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Trabajo en Equipo</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Programación Competitiva</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Trabajo bajo presión</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Resolución de Problemas</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Liderazgo</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Comunicación</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:8px;"></i> Inglés Intermedio</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Educación</h2>
+            <div class="education-card">
+                <div class="edu-header">
+                    <h3>Facultad de Estudios Superiores Acatlán</h3>
+                    <span class="edu-year">2023 - 2028</span>
+                </div>
+                <p class="edu-degree">Licenciatura en Matemática Computacional y Aplicada</p>
+                <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Naulcalpan de Juárez, México</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 style="font-size: 2rem; margin-bottom: 10px;">Conectemos</h2>
+            <p style="color: var(--text-muted);">¿Tienes un proyecto o quieres hablar de algoritmos?</p>
+            
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> ahangel2005@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 5553657201</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/SinR0str0" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/angel-hernandez-pena" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://discord.gg/n4aPG2PKYY" target="_blank" class="social-btn"><i class="fa-brands fa-discord"></i></a>
             </div>
             
-            <div class="footer-copyright">
-                <p>&copy; 2026 SinR0str0. Todos los derechos reservados.</p>
-            </div>
+            <p style="margin-top: 40px; font-size: 0.8rem; color: #555;">
+                &copy; 2025 Angel Hernández Peña.
+            </p>
         </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

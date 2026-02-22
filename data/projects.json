@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Bot para Programación Competitiva",
+        "description": "Bot para Discord diseñado para automatizar procesos antes, durante y después de los concursos de programación competitiva.",
+        "technologies": ["Python", "Algorithms", "IA", "FastAPI", "PostgreSQL"],
+        "image": "",
+        "github": "https://github.com/SinR0str0/GUAPA-Bot",
+        "demo": ""
+    },
+    {
+        "id": 2,
+        "title": "Herramienta de visualización de gráficas dirigidas y no dirigidas",
+        "description": "Sitio web que permite visualizar la construcción de un grafo dados los vérticies que se conectan además de otras propiedades de la Teoría de Gráficas.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "image": "",
+        "github": "https://github.com/SinR0str0/TeoriaGraficas",
+        "demo": "https://sinr0str0.github.io/TeoriaGraficas/Pagina/"
+    },
+    {
+        "id": 3,
+        "title": "Portafolio Personal",
+        "description": "Sitio web personal desarrollado con HTML, CSS y JavaScript. Optimizado para GitHub Pages.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "image": "",
+        "github": "https://github.com/SinR0str0/portfolio",
+        "demo": "https://sinr0str0.github.io/portfolio"
+    },
+    {
+        "id": 4,
+        "title": "DevStudy",
+        "description": "Sitio"
+    }
+]
