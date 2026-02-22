@@ -56,7 +56,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const projectsContainer = document.getElementById('projects-container');
 
 if (projectsContainer) {
-    fetch('/data/projects.json')
+    fetch('./data/projects.json')
         .then(response => response.json())
         .then(projects => {
             projects.forEach(project => {
