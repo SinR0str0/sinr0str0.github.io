@@ -29,6 +29,10 @@
     {
         "id": 4,
         "title": "DevStudy",
-        "description": "Sitio"
+        "description": "Plataforma web enfocada en el ámbito educativo basada en principios de gamificación, diseñada para alumnos de educación básica en México.",
+        "technologies": ["HTML", "CSS", "PostgreSQL", "API", "JavaScript"],
+        "image": "",
+        "github": "https://github.com/DevStudyJS/DevStudy",
+        "demo": ""
     }
 ]
