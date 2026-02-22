@@ -56,8 +56,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const projectsContainer = document.getElementById('projects-container');
 
 if (projectsContainer) {
-    fetch('./data/projects.json')
-        .then(response => response.json())
+    const isPagesFolder = window.location.pathname.includes('/pages/');
+    const jsonPath = isPagesFolder ? '../data/projects.json' : './data/projects.json';
+    
+    fetch(jsonPath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(projects => {
             projects.forEach(project => {
                 const projectCard = document.createElement('div');
